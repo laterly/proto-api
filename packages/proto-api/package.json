@@ -1,0 +1,43 @@
+{
+  "name": "pbjs-api",
+  "version": "1.0.0",
+  "description": "Protocol Buffers for JavaScript API",
+  "main": "index.js",
+  "bin": {
+    "pbjs-api": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laterly/latejs-cli.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/laterly/latejs-cli/issues"
+  },
+  "homepage": "https://github.com/laterly/latejs-cli#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "proto",
+    "pbjs-api",
+    "Protocol Buffers"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "4.1.2",
+    "commander": "^9.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.1",
+    "google-proto-files": "^3.0.3",
+    "inquirer": "^8.2.2",
+    "ora": "^5.1.0",
+    "protobufjs": "^7.2.4"
+  }
+}
